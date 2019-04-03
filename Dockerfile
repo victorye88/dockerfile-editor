@@ -10,5 +10,6 @@ USER app
 
 RUN npm install
 
+
 EXPOSE 9001
 CMD ["npm", "start", "--production"]
