@@ -13,4 +13,6 @@ RUN npm install
 
 EXPOSE 9001
 
+EXPOSE 9002
+
 CMD ["npm", "start", "--production"]
